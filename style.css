@@ -1,67 +1,62 @@
-body {
-    font-family: Arial, sans-serif;
-  }
-  
-  h1 {
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:#000000;
+}
+.container-1{
+    background-color: #332C39;
+    height:1200px;
+    width:800px;
+    margin:20px auto;
+
+}
+.virat{
+    width:300px;
+    height:350px;
+    margin-top: 10px;
+    margin-left:250px;
+}
+.img-1{
+   margin:10px auto;
+}
+.p{
+    font-size:15px;
+    font-family: Bookman;
+    margin-bottom: 30px;
+}
+.text{
+    font-size: 25px;
+    font-family: Bodoni MT ,Tahoma, sans-serif;
+    color:white;
     text-align: center;
-  }
-  
-  form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  input[type="text"] {
-    width: 60%;
-    padding: 10px;
+}
+.cls1{
+    font-family:Book Antiqua;
+    font-size: 25px;
+}
+.container-2{
+    text-align: left;
+    font-family: Verdana, Helvetica, sans-serif;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color:white;
     font-size: 18px;
-    border-radius: 5px;
-    border: none;
-    margin-right: 10px;
-  }
-  
-  button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 18px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #3e8e41;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  li {
-    padding: 10px;
-    background-color: #f2f2f2;
-    border-radius: 5px;
-    margin-bottom: 10px;
-  }
-  
-  li:hover {
-    background-color: #ddd;
-  }
-  
-  .delete-task {
-    float: right;
-    color: #fff;
-    background-color: #f44336;
-    padding: 5px 10px;
-    border-radius: 3px;
-    cursor: pointer;
-  }
-  
-  .delete-task:hover {
-    background-color: #d32f2f;
-  }
+}
+.img-2{
+    width:600px;
+    margin-left:100px;
+    margin-top: 25px;
+   
+}
+.cls2{
+    margin-left: 10px;;
+}
+.cls3{
+    width:25% ;
+    text-align:center; 
+    margin : 45px auto;
+}
